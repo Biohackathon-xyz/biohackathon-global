@@ -6,7 +6,6 @@ import GlobalAwards from '@/components/GlobalAwards';
 import Sponsors from '@/components/Sponsors';
 import Partners from '@/components/Partners';
 import ParticipationInfo from '@/components/ParticipationInfo';
-import CityExample from '@/components/CityExample';
 import PreviousYears from '@/components/PreviousYears';
 import Footer from '@/components/Footer';
 import HostInYourCity from '@/components/HostInYourCity';
@@ -32,7 +31,6 @@ const Index = () => {
           <Sponsors />
           <Partners />
         </section>
-        <CityExample />
         <section id="host-in-your-city" className="pt-20 mt-4">
           <HostInYourCity />
         </section>
